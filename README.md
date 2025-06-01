@@ -1,25 +1,45 @@
-📦 Java Storefront System
-A modular Java application simulating a simple online storefront. Developed as part of an Object-Oriented Programming assignment, it supports both admin and customer operations with a clear separation of concerns via shared utilities and command-based interaction.
+# Java Storefront System
 
-🧩 Features
-Admin and Customer interfaces with different functionalities
+A modular Java application simulating a simple online storefront. Developed as part of an Object-Oriented Programming assignment, it supports both **admin** and **customer** operations with a clear separation of concerns via shared utilities and command-based interaction.
 
-Inventory management using a centralized InventoryManager
+## Features
 
-Shopping cart operations and purchase workflows
+- Admin and Customer interfaces with different functionalities
+- Inventory management using a centralized `InventoryManager`
+- Shopping cart operations and purchase workflows
+- Command design pattern for modular action handling
+- Clean object-oriented design with factory and interface patterns
 
-Command design pattern for modular action handling
+## Project Structure
 
-Clean object-oriented design with factory and interface patterns
+- `Client/` - User-facing logic (Admin & Customer operations)
+- `Common/` - Shared models and utilities
+- `Store/` and `Jar/` - Server-related or deployment components
+- `makefile` - Compilation instructions
+- `README_Assignment_3.txt`, `OOP Assignment-3.pdf` - Assignment documentation
 
-📁 Structure
-Client/: User-facing logic (Admin & Customer operations)
+## Getting Started
 
-Common/: Shared models and utilities
+### Requirements
 
-Store/ & Jar/: Server-related or deployment components
+- Java Development Kit (JDK) 8 or above
+- Terminal or command line interface
 
-makefile: Compilation instructions
+### Build and Run
 
-📄 Documentation
-See README_Assignment_3.txt and OOP Assignment-3.pdf for assignment details and usage.
+1. Navigate to the project root directory.
+2. Use the provided `makefile` to compile the project:
+   ```bash
+   make
+   ```
+3. Run the application based on the generated class files.
+
+## Documentation
+
+For detailed instructions and design overview, refer to:
+- `README_Assignment_3.txt`
+- `OOP Assignment-3.pdf`
+
+---
+
+© Aditya Sholapurkar
